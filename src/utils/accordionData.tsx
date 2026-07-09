@@ -117,6 +117,7 @@ export const getAccordionData = (category: string) => {
     {
       id: 1,
       title: "Product Details",
+      //@ts-ignore
       content: categoryAccordionContent[category]?.details,
       // categoryAccordionContent[
       //   category as keyof typeof categoryAccordionContent

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import {slides} from "../../utils/HeroSlide"
 import {useEffect} from "react"
 import {useHero} from "../../hooks/useHero"

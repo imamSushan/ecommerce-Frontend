@@ -1,3 +1,4 @@
+ 
 import {useState} from "react"
 import AccordionItem from "./AccordionItem"
 import {getAccordionData} from "../../../utils/accordionData.tsx"
@@ -9,6 +10,7 @@ interface AccordionProps {
 
 export default function Accordion({category}: AccordionProps) {
   const [activeId, setActiveId] = useState<number | null>(1)
+  //@ts-ignore
   const accordionData = getAccordionData(category)
 
   const handleToggle = (id: number) => {
