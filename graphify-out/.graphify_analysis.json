@@ -1,0 +1,234 @@
+{
+  "communities": {
+    "0": [
+      "context_shopcontext",
+      "context_shopcontext_shopcontextprovider",
+      "utils_allproduct",
+      "utils_allproduct_all_product",
+      "utils_cartutils",
+      "utils_cartutils_findcartitem",
+      "utils_cartutils_getcartitemkey",
+      "utils_cartutils_getcartitemsbyproduct",
+      "utils_cartutils_gettotalcartitems",
+      "utils_cartutils_gettotalcartquantity",
+      "utils_cartutils_isitemincart",
+      "utils_cartutils_isvalidsize",
+      "utils_cartutils_loadcartfromlocalstorage",
+      "utils_cartutils_synccarttolocalstorage"
+    ],
+    "1": [
+      "layout_bottombar",
+      "layout_bottombar_actionitem",
+      "layout_bottombar_actionitemprops",
+      "layout_cartsidebar",
+      "layout_cartsidebar_cartsidebar",
+      "layout_header",
+      "layout_header_header",
+      "layout_sidebar",
+      "layout_sidebar_sidebar",
+      "routes_navbar",
+      "routes_navbar_navbar",
+      "ui_sidebarui",
+      "ui_sidebarui_sidebarui",
+      "ui_sidebarui_sidebaruiprops"
+    ],
+    "2": [
+      "layout_footer",
+      "layout_footer_footer",
+      "pages_cart_cart",
+      "pages_home",
+      "pages_home_home",
+      "src_app",
+      "src_app_app",
+      "src_main",
+      "ui_homecat",
+      "ui_homecat_homecat",
+      "ui_homecat_homecatprops",
+      "ui_newsletter",
+      "ui_newsletter_newsletter"
+    ],
+    "3": [
+      "context_shopcontext_shopcontext",
+      "hooks_useshopcontext",
+      "hooks_useshopcontext_useshopcontext",
+      "pages_cart",
+      "ui_button",
+      "ui_button_button",
+      "ui_button_buttonprops",
+      "ui_cartitems",
+      "ui_cartitems_cartitems",
+      "ui_cartsidebarui",
+      "ui_cartsidebarui_cartsidebarui",
+      "ui_cartsidebarui_cartsidebaruiprops"
+    ],
+    "4": [
+      "accordion_accordion",
+      "accordion_accordion_accordion",
+      "accordion_accordion_accordionprops",
+      "accordion_accordionitem",
+      "accordion_accordionitem_accordionitem",
+      "accordion_accordionitem_accordionitemprops",
+      "utils_accordiondata",
+      "utils_accordiondata_categoryaccordioncontent",
+      "utils_accordiondata_getaccordiondata"
+    ],
+    "5": [
+      "pages_productpage",
+      "pages_productpage_productpage",
+      "ui_productoverview",
+      "ui_productoverview_productoverview",
+      "ui_sizeselection",
+      "ui_sizeselection_sizeselection",
+      "ui_sizeselection_sizeselectionprops",
+      "utils_sizeguide",
+      "utils_sizeguide_sizeguide"
+    ],
+    "6": [
+      "hooks_usehero",
+      "hooks_usehero_usehero",
+      "ui_hero",
+      "ui_hero_hero",
+      "utils_heroslide",
+      "utils_heroslide_slides"
+    ],
+    "7": [
+      "pages_shopcategory",
+      "pages_shopcategory_shopcategory",
+      "ui_productcard",
+      "ui_productcard_cardprops",
+      "ui_productcard_imageurl",
+      "ui_productcard_productcard"
+    ],
+    "8": [
+      "types_index",
+      "types_index_cartitem",
+      "types_index_cartstate",
+      "types_index_product",
+      "types_index_shopcontexttype"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2857142857142857,
+    "1": 0.21978021978021978,
+    "2": 0.21794871794871795,
+    "3": 0.24242424242424243,
+    "4": 0.3055555555555556,
+    "5": 0.3333333333333333,
+    "6": 0.6666666666666666,
+    "7": 0.3333333333333333,
+    "8": 0.4
+  },
+  "gods": [
+    {
+      "id": "context_shopcontext_shopcontext",
+      "label": "ShopContext",
+      "degree": 10
+    },
+    {
+      "id": "context_shopcontext_shopcontextprovider",
+      "label": "ShopContextProvider()",
+      "degree": 7
+    },
+    {
+      "id": "utils_cartutils_gettotalcartitems",
+      "label": "getTotalCartItems()",
+      "degree": 5
+    },
+    {
+      "id": "layout_cartsidebar_cartsidebar",
+      "label": "CartSidebar()",
+      "degree": 3
+    },
+    {
+      "id": "ui_button_button",
+      "label": "Button()",
+      "degree": 3
+    },
+    {
+      "id": "ui_cartitems_cartitems",
+      "label": "CartItems()",
+      "degree": 3
+    },
+    {
+      "id": "hooks_usehero_usehero",
+      "label": "useHero()",
+      "degree": 3
+    },
+    {
+      "id": "pages_productpage_productpage",
+      "label": "ProductPage()",
+      "degree": 3
+    },
+    {
+      "id": "routes_navbar_navbar",
+      "label": "Navbar()",
+      "degree": 3
+    },
+    {
+      "id": "utils_heroslide_slides",
+      "label": "slides",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "CartSidebarUI()",
+      "target": "getTotalCartItems()",
+      "source_files": [
+        "src/components/ui/CartSidebarUI.tsx",
+        "src/utils/cartUtils.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `CartSidebarUI()` unexpectedly reaches hub `getTotalCartItems()`"
+    },
+    {
+      "source": "CartSidebar()",
+      "target": "getTotalCartItems()",
+      "source_files": [
+        "src/components/layout/CartSidebar.tsx",
+        "src/utils/cartUtils.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "Hero()",
+      "target": "useHero()",
+      "source_files": [
+        "src/components/ui/Hero.tsx",
+        "src/hooks/useHero.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Accordion()",
+      "target": "getAccordionData()",
+      "source_files": [
+        "src/components/ui/accordion/Accordion.tsx",
+        "src/utils/accordionData.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "ShopContextProvider()",
+      "target": "getCartItemsByProduct()",
+      "source_files": [
+        "src/context/ShopContext.tsx",
+        "src/utils/cartUtils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
