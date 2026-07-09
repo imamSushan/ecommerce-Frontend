@@ -1,0 +1,147 @@
+{
+  "communities": {
+    "0": [
+      "context_shopcontext",
+      "context_shopcontext_getdeafultcart",
+      "context_shopcontext_shopcontext",
+      "context_shopcontext_shopcontextprovider",
+      "pages_cart",
+      "src_main",
+      "ui_cartitems",
+      "ui_cartitems_cartitems",
+      "ui_cartsidebarui",
+      "ui_cartsidebarui_cartsidebarui",
+      "ui_cartsidebarui_cartsidebaruiprops",
+      "utils_allproduct",
+      "utils_allproduct_all_product"
+    ],
+    "1": [
+      "layout_bottombar",
+      "layout_bottombar_actionitem",
+      "layout_bottombar_actionitemprops",
+      "layout_cartsidebar",
+      "layout_cartsidebar_cartsidebar",
+      "layout_header",
+      "layout_sidebar",
+      "layout_sidebar_sidebar",
+      "routes_navbar",
+      "routes_navbar_navbar",
+      "ui_sidebarui",
+      "ui_sidebarui_sidebarui",
+      "ui_sidebarui_sidebaruiprops"
+    ],
+    "2": [
+      "pages_home",
+      "pages_home_home",
+      "ui_hero",
+      "ui_hero_hero",
+      "ui_homecat",
+      "ui_homecat_homecat",
+      "ui_homecat_homecatprops",
+      "ui_newsletter",
+      "ui_newsletter_newsletter",
+      "utils_heroslide",
+      "utils_heroslide_slides"
+    ],
+    "3": [
+      "pages_productoverview",
+      "pages_productoverview_productoverview",
+      "ui_button",
+      "ui_button_button",
+      "ui_button_buttonprops",
+      "ui_productdetails",
+      "ui_productdetails_productdetails",
+      "ui_sizebox",
+      "ui_sizebox_sizebox"
+    ],
+    "4": [
+      "layout_footer",
+      "layout_footer_footer",
+      "layout_header_header",
+      "pages_cart_cart",
+      "src_app",
+      "src_app_app"
+    ],
+    "5": [
+      "pages_shopcategory",
+      "pages_shopcategory_shopcategory",
+      "ui_productcard",
+      "ui_productcard_cardprops",
+      "ui_productcard_imageurl",
+      "ui_productcard_productcard"
+    ]
+  },
+  "cohesion": {
+    "0": 0.28205128205128205,
+    "1": 0.24358974358974358,
+    "2": 0.23636363636363636,
+    "3": 0.3055555555555556,
+    "4": 0.4,
+    "5": 0.3333333333333333
+  },
+  "gods": [
+    {
+      "id": "context_shopcontext_shopcontext",
+      "label": "ShopContext",
+      "degree": 9
+    },
+    {
+      "id": "ui_button_button",
+      "label": "Button()",
+      "degree": 3
+    },
+    {
+      "id": "ui_cartitems_cartitems",
+      "label": "CartItems()",
+      "degree": 3
+    },
+    {
+      "id": "context_shopcontext_shopcontextprovider",
+      "label": "ShopContextProvider()",
+      "degree": 3
+    },
+    {
+      "id": "routes_navbar_navbar",
+      "label": "Navbar()",
+      "degree": 3
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "degree": 2
+    },
+    {
+      "id": "layout_bottombar_actionitem",
+      "label": "ActionItem()",
+      "degree": 2
+    },
+    {
+      "id": "layout_cartsidebar_cartsidebar",
+      "label": "CartSidebar()",
+      "degree": 2
+    },
+    {
+      "id": "layout_footer_footer",
+      "label": "Footer()",
+      "degree": 2
+    },
+    {
+      "id": "layout_header_header",
+      "label": "Header()",
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ShopContext` connect `Community 0` to `Community 1`, `Community 2`, `Community 3`, `Community 5`?",
+      "why": "High betweenness centrality (0.095) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `ActionItemProps`, `ButtonProps`, `CartSidebarUIprops` to the rest of the system?",
+      "why": "7 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

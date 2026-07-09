@@ -1,0 +1,24 @@
+ # Ignore common folders
+node_modules/
+dist/
+*.generated.py
+
+# Ignore everything
+*
+
+# Allow src
+!src/
+!src/**
+
+# Ignore src/assets/all contents and everything inside it
+src/assets/**
+
+ # Ignore image and doc files
+ *.png
+ *.jpg
+ *.jpeg
+ *.webp
+ *.gif
+ *.svg
+ *.md
+

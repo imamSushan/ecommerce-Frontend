@@ -1,0 +1,250 @@
+{
+  "nodes": [
+    {
+      "id": "layout_footer_footer",
+      "label": "Footer",
+      "file_type": "code",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_header_header",
+      "label": "Header",
+      "file_type": "code",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_button_button",
+      "label": "Button",
+      "file_type": "code",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_newsletter_newsletter",
+      "label": "NewsLetter",
+      "file_type": "code",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sidebarui_sidebarui",
+      "label": "SidebarUI",
+      "file_type": "code",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sizeselection_sizeselection",
+      "label": "SizeSelection",
+      "file_type": "code",
+      "source_file": "src/components/ui/SizeSelection.tsx",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "accordion_accordionitem_accordionitem",
+      "label": "AccordionItem",
+      "file_type": "code",
+      "source_file": "src/components/ui/accordion/AccordionItem.tsx",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "hooks_usehero_usehero",
+      "label": "useHero",
+      "file_type": "code",
+      "source_file": "src/hooks/useHero.ts",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_navbar_navbar",
+      "label": "Navbar",
+      "file_type": "code",
+      "source_file": "src/routes/Navbar.tsx",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "types_index_product",
+      "label": "Product",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "types_index_cartitem",
+      "label": "CartItem",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "types_index_cartstate",
+      "label": "CartState",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "types_index_shopcontexttype",
+      "label": "ShopContextType",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_sizeguide_sizeguide",
+      "label": "SizeGuide",
+      "file_type": "code",
+      "source_file": "src/utils/sizeGuide.ts",
+      "source_location": "L6",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "src_app",
+      "target": "layout_header_header",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "layout_footer_footer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "routes_navbar_navbar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_sidebar",
+      "target": "ui_sidebarui_sidebarui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_hero",
+      "target": "hooks_usehero_usehero",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productoverview",
+      "target": "ui_sizeselection_sizeselection",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductOverview.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productoverview",
+      "target": "ui_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductOverview.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sidebarui",
+      "target": "routes_navbar_navbar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "accordion_accordion",
+      "target": "accordion_accordionitem_accordionitem",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/accordion/Accordion.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "ui_newsletter_newsletter",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productpage",
+      "target": "utils_sizeguide_sizeguide",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductPage.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_cartutils",
+      "target": "types_index_cartitem",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/cartUtils.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

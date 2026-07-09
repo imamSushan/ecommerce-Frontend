@@ -1,0 +1,118 @@
+.container {
+  margin-top: 80px;
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+    padding: 10px;
+
+    .left_section {
+      display: flex;
+      overflow: hidden;
+
+      .small_images_box {
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+
+        img {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+      }
+
+      .large_image_box {
+        width: 500px;
+
+        img {
+          max-width: 100%;
+          display: block;
+          height: auto;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .right_section {
+      width: 400px;
+
+      .title {
+        font-size: 30px;
+        color: var(--text-h);
+        letter-spacing: 0px;
+      }
+
+      .review {
+        margin-block: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(211, 213, 214);
+      }
+
+      .priceBox {
+        display: flex;
+        align-items: center;
+
+        .price {
+          font-weight: 600;
+          color: var(--text-h);
+          font-size: 22px;
+        }
+        .oldPrice {
+          margin-left: 15px;
+          color: #777777;
+        }
+      }
+
+      @media (max-width: 800px) {
+        width: 390px;
+
+        .title {
+          font-size: 25px;
+          letter-spacing: 0;
+        }
+
+        .cart_buy .common {
+          padding: 5px 40px;
+          font-size: 15px;
+          margin-left: 0;
+        }
+
+        .cart_buy button.buy {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .left_section {
+      @media (max-width: 800px) {
+        flex-direction: column-reverse;
+
+        .small_images_box {
+          flex-direction: row;
+          width: 90px;
+          margin-top: 10px;
+
+          img:not(:first-child) {
+            margin-left: 10px;
+            width: 100%;
+          }
+        }
+
+        .large_image_box {
+          width: 390px;
+
+          img {
+            width: 100%;
+            margin-left: 0px;
+            height: 400px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

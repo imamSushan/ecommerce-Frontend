@@ -1,0 +1,30 @@
+.size_select {
+  margin-top: 25px;
+ 
+
+  p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  input {
+    display: none;
+
+    &:checked + span {
+      color: white;
+      background-color: black;
+      font-weight: 600;
+    }
+  }
+
+  span {
+    padding: 4px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+  }
+  label:nth-child(n + 3) span {
+    margin-left: 10px;
+  }
+}

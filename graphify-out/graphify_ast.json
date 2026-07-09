@@ -1,0 +1,1979 @@
+{
+  "nodes": [
+    {
+      "id": "src_app",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_bottombar",
+      "label": "BottomBar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/BottomBar.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_bottombar_actionitemprops",
+      "label": "ActionItemProps",
+      "file_type": "code",
+      "source_file": "src/components/layout/BottomBar.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_bottombar_actionitem",
+      "label": "ActionItem()",
+      "file_type": "code",
+      "source_file": "src/components/layout/BottomBar.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_cartsidebar",
+      "label": "CartSidebar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_cartsidebar_cartsidebar",
+      "label": "CartSidebar()",
+      "file_type": "code",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_footer",
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_footer_footer",
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_header",
+      "label": "Header.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_header_header",
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_sidebar",
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "layout_sidebar_sidebar",
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_button",
+      "label": "Button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_button_buttonprops",
+      "label": "ButtonProps",
+      "file_type": "code",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_button_button",
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_cartitems",
+      "label": "CartItems.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_cartitems_cartitems",
+      "label": "CartItems()",
+      "file_type": "code",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_cartsidebarui",
+      "label": "CartSidebarUI.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_cartsidebarui_cartsidebaruiprops",
+      "label": "CartSidebarUIprops",
+      "file_type": "code",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_cartsidebarui_cartsidebarui",
+      "label": "CartSidebarUI()",
+      "file_type": "code",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_hero",
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_hero_hero",
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_homecat",
+      "label": "HomeCat.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_homecat_homecatprops",
+      "label": "HomeCatProps",
+      "file_type": "code",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_homecat_homecat",
+      "label": "HomeCat()",
+      "file_type": "code",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_newsletter",
+      "label": "NewsLetter.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_newsletter_newsletter",
+      "label": "NewsLetter()",
+      "file_type": "code",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_productcard",
+      "label": "ProductCard.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_productcard_imageurl",
+      "label": "ImageUrl",
+      "file_type": "code",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_productcard_cardprops",
+      "label": "CardProps",
+      "file_type": "code",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_productcard_productcard",
+      "label": "ProductCard()",
+      "file_type": "code",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_productdetails",
+      "label": "ProductDetails.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_productdetails_productdetails",
+      "label": "ProductDetails()",
+      "file_type": "code",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sidebarui",
+      "label": "SidebarUI.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sidebarui_sidebaruiprops",
+      "label": "SidebarUIprops",
+      "file_type": "code",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sidebarui_sidebarui",
+      "label": "SidebarUI()",
+      "file_type": "code",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sizebox",
+      "label": "SizeBox.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/SizeBox.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ui_sizebox_sizebox",
+      "label": "SizeBox()",
+      "file_type": "code",
+      "source_file": "src/components/ui/SizeBox.tsx",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "context_shopcontext",
+      "label": "ShopContext.tsx",
+      "file_type": "code",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "context_shopcontext_shopcontext",
+      "label": "ShopContext",
+      "file_type": "code",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "context_shopcontext_getdeafultcart",
+      "label": "getDeafultCart()",
+      "file_type": "code",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "context_shopcontext_shopcontextprovider",
+      "label": "ShopContextProvider()",
+      "file_type": "code",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_main",
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_cart",
+      "label": "Cart.tsx",
+      "file_type": "code",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_cart_cart",
+      "label": "Cart()",
+      "file_type": "code",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_home",
+      "label": "Home.tsx",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_home_home",
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_productoverview",
+      "label": "ProductOverview.tsx",
+      "file_type": "code",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_productoverview_productoverview",
+      "label": "ProductOverview()",
+      "file_type": "code",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_shopcategory",
+      "label": "ShopCategory.tsx",
+      "file_type": "code",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "pages_shopcategory_shopcategory",
+      "label": "ShopCategory()",
+      "file_type": "code",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_navbar",
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "src/routes/Navbar.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "routes_navbar_navbar",
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "src/routes/Navbar.tsx",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_allproduct",
+      "label": "AllProduct.ts",
+      "file_type": "code",
+      "source_file": "src/utils/AllProduct.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_allproduct_all_product",
+      "label": "all_Product",
+      "file_type": "code",
+      "source_file": "src/utils/AllProduct.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_heroslide",
+      "label": "HeroSlide.ts",
+      "file_type": "code",
+      "source_file": "src/utils/HeroSlide.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_heroslide_slides",
+      "label": "slides",
+      "file_type": "code",
+      "source_file": "src/utils/HeroSlide.ts",
+      "source_location": "L5",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "src_app",
+      "target": "c_users_ct_ecom_vite_project_src_app_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "layout_header",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "layout_footer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_home",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_shopcategory",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_productoverview",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_cart",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_cart_cart",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_bottombar",
+      "target": "layout_bottombar_actionitemprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/BottomBar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_bottombar",
+      "target": "layout_bottombar_actionitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/BottomBar.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "ci",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "ui_cartsidebarui",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_cartsidebar",
+      "target": "layout_cartsidebar_cartsidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/CartSidebar.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_footer",
+      "target": "c_users_ct_ecom_vite_project_src_assets_images_branding_logo_png",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_footer",
+      "target": "layout_footer_footer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "routes_navbar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_sidebar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_bottombar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "c_users_ct_ecom_vite_project_src_assets_images_branding_logo_png",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "fa6",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "io",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "ci",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_cartsidebar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_cartsidebar_cartsidebar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_header_header",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_sidebar",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_sidebar",
+      "target": "fa6",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_sidebar",
+      "target": "ui_sidebarui",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_sidebar",
+      "target": "ui_sidebarui_sidebarui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_sidebar",
+      "target": "layout_sidebar_sidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Sidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_button",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_button_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_button",
+      "target": "ui_button_buttonprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_button",
+      "target": "ui_button_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Button.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartitems",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_cartitems_module_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartitems",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartitems",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartitems",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartitems",
+      "target": "fi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartitems",
+      "target": "ui_cartitems_cartitems",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartItems.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "fi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_cartitems",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_cartitems_cartitems",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_cartsidebarui_cartsidebaruiprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_cartsidebarui",
+      "target": "ui_cartsidebarui_cartsidebarui",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/CartSidebarUI.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_hero",
+      "target": "utils_heroslide",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_hero",
+      "target": "utils_heroslide_slides",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_hero",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_hero",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_hero_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_hero",
+      "target": "ui_hero_hero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/Hero.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "ui_productcard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "ui_homecat_homecatprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_homecat",
+      "target": "ui_homecat_homecat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/HomeCat.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_newsletter",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_newsletter_module_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_newsletter",
+      "target": "fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_newsletter",
+      "target": "ri",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_newsletter",
+      "target": "fa6",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_newsletter",
+      "target": "ui_newsletter_newsletter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/NewsLetter.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productcard",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productcard",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productcard",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_productcard_module_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productcard",
+      "target": "ui_productcard_imageurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productcard",
+      "target": "ui_productcard_cardprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productcard",
+      "target": "ui_productcard_productcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductCard.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_productdetails_module_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "ui_sizebox",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "ui_sizebox_sizebox",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "ui_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "ui_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "ci",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_productdetails",
+      "target": "ui_productdetails_productdetails",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ProductDetails.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sidebarui",
+      "target": "routes_navbar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sidebarui",
+      "target": "io5",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sidebarui",
+      "target": "ui_sidebarui_sidebaruiprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sidebarui",
+      "target": "ui_sidebarui_sidebarui",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sizebox",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_sizebox_module_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SizeBox.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sizebox",
+      "target": "ui_sizebox_sizebox",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SizeBox.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext",
+      "target": "utils_allproduct",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext",
+      "target": "context_shopcontext_getdeafultcart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext",
+      "target": "context_shopcontext_shopcontextprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext_shopcontextprovider",
+      "target": "context_shopcontext_getdeafultcart",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "c_users_ct_ecom_vite_project_src_index_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart",
+      "target": "ui_cartitems",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart",
+      "target": "ui_cartitems_cartitems",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart",
+      "target": "pages_cart_cart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Cart.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "ui_newsletter",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "ui_homecat",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "ui_homecat_homecat",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "ui_hero",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_hero_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "c_users_ct_ecom_vite_project_src_assets_images_cover_denim_shirt_cata_webp",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "c_users_ct_ecom_vite_project_src_assets_images_cover_cate_webp",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "pages_home_home",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "ui_productdetails",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "ui_productdetails_productdetails",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_productoverview",
+      "target": "pages_productoverview_productoverview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ProductOverview.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_shopcategory",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_shopcategory",
+      "target": "context_shopcontext",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_shopcategory",
+      "target": "context_shopcontext_shopcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_shopcategory",
+      "target": "ui_productcard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_shopcategory",
+      "target": "c_users_ct_ecom_vite_project_src_components_ui_productcard_module_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_shopcategory",
+      "target": "pages_shopcategory_shopcategory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/ShopCategory.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_navbar",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/Navbar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_navbar",
+      "target": "routes_navbar_navbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/routes/Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_allproduct",
+      "target": "utils_allproduct_all_product",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/AllProduct.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_heroslide",
+      "target": "c_users_ct_ecom_vite_project_src_assets_hero_hero_slider_img_webp",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/HeroSlide.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_heroslide",
+      "target": "c_users_ct_ecom_vite_project_src_assets_hero_hero_slider_img2_webp",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/HeroSlide.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_heroslide",
+      "target": "c_users_ct_ecom_vite_project_src_assets_hero_hero_slider_img3_webp",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/HeroSlide.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_heroslide",
+      "target": "utils_heroslide_slides",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/HeroSlide.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "layout_header_header",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "layout_footer_footer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_home_home",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "pages_productoverview_productoverview",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "routes_navbar_navbar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_sidebar_sidebar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_header",
+      "target": "layout_bottombar_actionitem",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Header.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ui_sidebarui",
+      "target": "routes_navbar_navbar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/SidebarUI.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "context_shopcontext",
+      "target": "utils_allproduct_all_product",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/context/ShopContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "src_app_app",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "context_shopcontext_shopcontextprovider",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_home",
+      "target": "ui_newsletter_newsletter",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

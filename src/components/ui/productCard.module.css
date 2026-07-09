@@ -1,0 +1,112 @@
+/* using grid for two dimentional boxex */
+.product_grid {
+  width: min(1500px, 95%);
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.shopCard {
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 3/4;
+    display: block;
+  }
+
+  .detailsBox {
+    background-color: #f6ede1;
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px 0px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+
+    .productTitle {
+      color: #3f321c;
+      font-weight: 500;
+      margin-bottom: 2px;
+      font-size: 11px;
+    }
+
+    .priceBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .productPrice {
+        margin-right: 15px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .productOldPrice {
+        text-decoration: line-through;
+        font-size: 11px;
+        color: #777777;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .product_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .product_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*home card */
+
+.homeCard {
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+
+  &:hover .detailsBox {
+    bottom: 5px;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 6px;
+    aspect-ratio: 3/4;
+  }
+
+  .detailsBox {
+    display: flex;
+    width: 100%;
+
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+
+    .priceBox {
+      display: flex;
+      background-color: #f6ede1;
+      margin: auto;
+
+      .productPrice {
+        margin-right: 15px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .productOldPrice {
+        text-decoration: line-through;
+        font-size: 11px;
+        color: #777777;
+      }
+    }
+  }
+}
