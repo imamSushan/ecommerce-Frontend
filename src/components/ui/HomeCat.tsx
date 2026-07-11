@@ -34,7 +34,7 @@ export function HomeCat({category,cover}: HomeCatProps) {
         {category}
       </p>
       <section
-        className="mx-auto grid w-[95%] max-w-[1500px] gap-4
+        className="mx-auto grid w-[95%] max-w-375 gap-4
                     grid-cols-2
                     md:grid-cols-3
                     lg:grid-cols-4"

@@ -6,10 +6,12 @@ import Home from "./pages/Home"
 import ShopCategory from "./pages/ShopCategory"
  import ProductPage from "./pages/ProductPage"
  import { Cart } from "./pages/Cart"
+ import ScrollToTop from "./components/ScrollToTop"
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/ecommerce-Frontend">
+      <ScrollToTop/>
         <Header />
  
         <Routes>

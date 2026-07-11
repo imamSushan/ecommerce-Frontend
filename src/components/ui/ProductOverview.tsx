@@ -6,6 +6,7 @@ import {CiShoppingCart} from "react-icons/ci"
 import {useState, useContext} from "react"
 import {ShopContext} from "../../context/ShopContext"
 import Accordion from "./accordion/Accordion"
+
 export function ProductOverview({product, src}: {product: any; src: string}) {
   const [largeImage, setLargeImage] = useState(product.image)
   const [selectedSize, setSelectedSize] = useState("")
@@ -41,6 +42,8 @@ export function ProductOverview({product, src}: {product: any; src: string}) {
                 onClick={() => handleSmallImageClick(product.featureImage)}
                 className="cursor-pointer"
               />
+
+              {/* size guide images */}
               <img
                 src={src}
                 alt=" "
@@ -49,7 +52,7 @@ export function ProductOverview({product, src}: {product: any; src: string}) {
               />
             </div>
             <div className={styles.large_image_box}>
-              <img src={largeImage} alt=" " />
+              <img src={largeImage} alt="" />
             </div>
           </div>
           <div className={styles.right_section}>

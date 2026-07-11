@@ -4,16 +4,22 @@ export const categoryAccordionContent = {
     details: (
       <>
         <p>
-          Made of premium grade denim fabric. Stitched with intensive care.
-          Slim-fit shirt in woven denim with an easy-iron finish.
+          VOYAGE denim's This shirt can be dressed up or down depending on you
+          mood, the Voyage Denim Shirt is sure to turn heads! Pair these Denim
+          with your favourite chinos,or jeans for a timeless and versatile look.
         </p>
         <ul>
-          <li>100% Cotton Denim (Imported).</li>
-          <li>Slim fit design.</li>
-          <li>Spread collar, classic button placket.</li>
-          <li>Long sleeves with adjustable buttoning at cuffs.</li>
+          <li>152.8 GSM Denim/ Jeans fabrics (Imported).</li>
+          <li>Never narrow after wash at home.</li>
+          <li>Y Fit/Slim fit collar shirt.</li>
+          <li>Turn-down collar, classic button placket.</li>
+          <li>
+            Long sleeves with adjustable buttoning at cuffs and a sleeve placket
+            with a link button.
+          </li>
           <li>Gently rounded hem.</li>
-          <li>Easy Exchange & Return policy.</li>
+          <li>Make Voyage's own factory.</li>
+          <li>Easy exchange and return policy.</li>
         </ul>
         <p>
           <strong>Care:</strong> Wash with similar color. Do not bleach. Line
@@ -31,20 +37,24 @@ export const categoryAccordionContent = {
     details: (
       <>
         <p>
-          Premium solid cotton shirt. Crafted with care for everyday comfort.
-          Classic fit with superior fabric quality.
+          Made of premium grade cotton. Stitched with intensive care. Slim-fit
+          shirt in woven fabric with an easy-iron finish.
         </p>
         <ul>
-          <li>100% Premium Grade Cotton.</li>
-          <li>Classic fit design.</li>
-          <li>Turndown collar, button placket.</li>
-          <li>Full-length sleeves with cuff buttons.</li>
-          <li>Straight hem.</li>
-          <li>Easy Exchange & Return policy.</li>
+          <li>Oxford cotton fabrics(Imported).</li>
+          <li>Y Fit/Slim fit collar shirt.</li>
+          <li>Turn-down collar, classic button placket.</li>
+          <li>
+            Long sleeves with adjustable buttoning at cuffs and a sleeve placket
+            with a link button.
+          </li>
+          <li>Gently rounded hem.</li>
+          <li>Make Voyage's own factory.</li>
+          <li>Easy exchange and return policy.</li>
         </ul>
         <p>
-          <strong>Care:</strong> Wash separately or with similar colors. Do not
-          bleach. Tumble dry low.
+          <strong>Care:</strong> Wash with similar color. Do not bleach. Line
+          dry recommended.
         </p>
         <p>
           <strong>
@@ -58,25 +68,59 @@ export const categoryAccordionContent = {
     details: (
       <>
         <p>
-          Stylish checked cotton shirt with intricate pattern. Designed for a
-          modern look with comfort. Premium woven fabric.
+          Made of premium grade cotton. Stitched with intensive care. Slim-fit
+          shirt in woven fabric with an easy-iron finish.
         </p>
         <ul>
-          <li>100% Cotton with checked pattern.</li>
-          <li>Slim fit silhouette.</li>
-          <li>Classic collar with pattern matching.</li>
-          <li>Long sleeves with adjustable cuffs.</li>
-          <li>Curved hem.</li>
-          <li>Easy Exchange & Return policy.</li>
+          <li>100% cotton fabric (Imported).</li>
+          <li>Y Fit/Slim fit collar shirt.</li>
+          <li>Turn-down collar, classic button placket.</li>
+          <li>
+            Long sleeves with adjustable buttoning at cuffs and a sleeve placket
+            with a link button.
+          </li>
+          <li>Gently rounded hem.</li>
+          <li>Make Voyage's own factory.</li>
+          <li>Easy exchange and return policy.</li>
         </ul>
         <p>
-          <strong>Care:</strong> Wash with similar colors. Do not bleach. Iron
-          on medium heat.
+          <strong>Care:</strong> Wash with similar color. Do not bleach. Line
+          dry recommended.
         </p>
         <p>
           <strong>
-            Product color and pattern may slightly vary due to photographic
-            lighting.
+            Product color may slightly vary due to photographic lighting.
+          </strong>
+        </p>
+      </>
+    ),
+  },
+  "Cuban Shirt": {
+    details: (
+      <>
+        <p>
+          Made of premium grade cotton. Stitched with intensive care. Slim-fit
+          shirt in woven fabric with an easy-iron finish.
+        </p>
+        <ul>
+          <li> 100% cotton fabrics (Imported).</li>
+          <li>Y Fit/Slim fit collar shirt.</li>
+          <li>Turn-down collar, classic button placket.</li>
+          <li>
+            Long sleeves with adjustable buttoning at cuffs and a sleeve placket
+            with a link button.
+          </li>
+          <li>Bleached Washed.</li>
+          <li>Make Voyage's own factory.</li>
+          <li>Easy exchange and return policy.</li>
+        </ul>
+        <p>
+          <strong>Care:</strong> Wash with similar color. Do not bleach. Line
+          dry recommended.
+        </p>
+        <p>
+          <strong>
+            Product color may slightly vary due to photographic lighting.
           </strong>
         </p>
       </>
@@ -86,15 +130,19 @@ export const categoryAccordionContent = {
     details: (
       <>
         <p>
-          Luxurious panjabi crafted from finest fabrics. Traditional design with
-          modern comfort. Perfect for any occasion.
+          <strong> Voyage Panjabis</strong> are perfect for any occasion
+          experience the ultimate in comfort, style, and sophistication with
+          Voyage Elite. Voyage Indian imported cotton Panjabi for men is the
+          epitome of elegance and sophistication.
         </p>
         <ul>
-          <li>100% Finest quality fabric.</li>
-          <li>Traditional comfortable fit.</li>
-          <li>Hand-finished embroidery details.</li>
-          <li>Full-length sleeves.</li>
-          <li>Authentic traditional design.</li>
+          <li>Indian Soft cotton fabrics.</li>
+          <li>Handcuff style.</li>
+          <li>Premium Snap Button.</li>
+          <li>Best quality embroidery with “Well Embroidery Thread”.</li>
+          <li>Yarn count: 26, enzyme and silicone wash.</li>
+          <li>Made in own factory in Bangladesh</li>
+          <li>Quality controlled(QC) finishing</li>
           <li>Easy Exchange & Return policy.</li>
         </ul>
         <p>
@@ -127,19 +175,49 @@ export const getAccordionData = (category: string) => {
       id: 2,
       title: "Delivery",
       content: (
-        <p>
-          Delivery usually takes 2-5 working days depending on your location.
-        </p>
+        <>
+          <ul>
+            <li>
+              <strong>Inside Dhaka:</strong> Home delivery within 24-48hours &
+              delivery charge BDT 70.(COD available)
+            </li>
+            <li>
+              <strong>Sub Dhaka Area:</strong> Home delivery within 24-48hours &
+              delivery charge BDT 100.(COD available){" "}
+            </li>
+            <li>
+              <strong>Outside Dhaka:</strong> Home delivery within 24-72hours &
+              delivery charge BDT 130.(COD available){" "}
+            </li>
+          </ul>
+          <strong>
+            Delivery time may vary due to weather condition or any internel
+            disruptions within the country.
+          </strong>
+        </>
       ),
     },
     {
       id: 3,
       title: "Exchange & Return Policy",
       content: (
-        <p>
-          Returns are accepted within 7 days. Product must be unused with
-          original tags.
-        </p>
+        <>
+          <p>
+            Check the product while the delivery man is at your place. If the
+            product does not meet your expectations, please return it by the
+            delivery man with delivery charges only.
+          </p>
+          <br />
+          <p>
+            <strong>Please note :</strong>Colors may appear slightly different
+            due to lighting during photography or variations in your screen
+            settings.
+          </p>
+          <p>
+            Thank you for adhering to our policy and helping us maintain a
+            seamless shopping experience.
+          </p>
+        </>
       ),
     },
   ]

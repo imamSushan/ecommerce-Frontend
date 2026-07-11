@@ -2,7 +2,17 @@ import logo from "../../assets/images/branding/logo.png"
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#B36D671C] mt-16">
+    <style>
+      {`
+        .footer a{
+        display:block;
+        font-size:11px;
+        margin-bottom:8px;
+        }
+        
+      `}
+    </style>
+      <footer className="footer bg-[#B36D671C] mt-16">
         {/* Main Footer */}
         <div className="px-6 pt-12 mx-auto max-w-7xl">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
@@ -108,18 +118,18 @@ export default function Footer() {
           </p>
 
           <div className="items-center justify-center hidden gap-3 lg:flex md:flex lg:justify-end">
-            <img src="/visa.png" alt="Visa" className="w-auto h-8" />
+            <img src=" " alt="Visa" className="w-auto h-8" />
 
-            <img src="/paypal.png" alt="PayPal" className="w-auto h-8" />
+            <img src="/ " alt="PayPal" className="w-auto h-8" />
 
             <img
-              src="/mastercard.png"
+              src=" "
               alt="MasterCard"
               className="w-auto h-8"
             />
 
             <img
-              src="/amex.png"
+              src=" "
               alt="American Express"
               className="w-auto h-8"
             />

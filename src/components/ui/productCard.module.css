@@ -6,6 +6,19 @@
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
+
+@media (min-width: 768px) {
+  .product_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .product_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .shopCard {
   overflow: hidden;
   border-radius: 8px;
@@ -54,18 +67,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  .product_grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 1200px) {
-  .product_grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 /*home card */
 
 .homeCard {
@@ -105,6 +106,95 @@
       .productOldPrice {
         text-decoration: line-through;
         font-size: 11px;
+        color: #777777;
+      }
+    }
+  }
+}
+
+/* similar card */
+
+.similarCard {
+  @media (width < 764px) {
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      aspect-ratio: 3/4;
+      display: block;
+    }
+
+    .detailsBox {
+      background-color: #f6ede1;
+      width: 100%;
+      margin-top: 15px;
+      padding: 8px 0px;
+      border-radius: 6px;
+      text-align: center;
+      cursor: pointer;
+
+      .productTitle {
+        color: #3f321c;
+        font-weight: 500;
+        margin-bottom: 2px;
+        font-size: 11px;
+      }
+
+      .priceBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .productPrice {
+          margin-right: 15px;
+          font-size: 12px;
+          font-weight: 600;
+        }
+
+        .productOldPrice {
+          text-decoration: line-through;
+          font-size: 11px;
+          color: #777777;
+        }
+      }
+    }
+  }
+}
+
+.similarCard {
+  @media (width > 764px) {
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+
+    img {
+      display: block;
+      height: 150px;
+      width: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .productTitle {
+      font-size: 13px;
+    }
+
+    .priceBox {
+      display: flex;
+      align-items: center;
+
+      .productPrice {
+        color: #3f321c;
+        font-size: 12px;
+      }
+
+      .productOldPrice {
+        text-decoration: line-through;
+        font-size: 10px;
+        margin-left: 5px;
         color: #777777;
       }
     }

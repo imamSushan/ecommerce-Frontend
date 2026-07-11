@@ -1,0 +1,22 @@
+.categoryList {
+  padding-inline: 10px;
+
+  a {
+    display: block;
+    width: max-content;
+    margin-bottom: 5px;
+    font-size: 13px;
+    
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    margin-block: 10px;
+  }
+  p {
+    font-weight: 500;
+  }
+}

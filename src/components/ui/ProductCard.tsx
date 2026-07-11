@@ -11,7 +11,7 @@ interface CardProps {
   price: number
   old_Price: number
   id: number
-  variant?: "shopCard" | "homeCard"
+  variant?: "shopCard" | "homeCard" | "similarCard"
 }
 const ProductCard: React.FC<CardProps> = (props) => {
   const {img, title, price, old_Price, id, variant} = props
